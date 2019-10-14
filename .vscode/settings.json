@@ -1,8 +1,14 @@
 {
-    "python.pythonPath": "/Users/briandoyle/.local/share/virtualenvs/sc-hash-bc-student-HSwDRd-G/bin/python",
+    "python.pythonPath": "c:\\Python37\\",
     "workbench.colorCustomizations": {
         "activityBar.background": "#242E3C",
         "titleBar.activeBackground": "#334054",
         "titleBar.activeForeground": "#F9FAFC"
-    }
+    },
+    "python.testing.pytestArgs": [
+        "hashtables"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
