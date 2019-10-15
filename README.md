@@ -26,11 +26,21 @@ During your challenge, you will be pulled aside by a PM for a 5 minute interview
 
 Explain in detail the workings of a dynamic array:
 * What is the runtime complexity to access an array, add or remove from the front, and add or remove from the back?
+
+It will vary depending on how long the array is. The longer the array the longer it will take since it will need to loop throughout the array each time to update and move each item as you add or remove a item from the front or back and it most case I think it would be O(n)
+
+
 * What is the worse case scenario if you try to extend the storage size of a dynamic array?
+
+It may continuously try to expand the array and run forever as it expands your array and bring your machine to a standstill or worst case it may crash once it hits the machines limit.
 
 Explain how blockchain networks remain in consensus:
 * What does a node do if it gets a message from another in the network with a new block?
+It will check to to see if its list of nodes is up to date and if it is, it will add it to its list otherwise it will retrieve a up to date list from the network.
+
 * Why can't someone cheat by changing a transaction from an earlier block to give themselves coins?
+
+When you want to change a transaction. It has to update the history of the tranaction so if it is on block 60 and someone want to change block 50. It will have to change the 50 blocks before it and often times its faster to mine than to change a block. Also anytime a transaction takes place. Most of the time the network confirms that transaction against a high percentage of other records on the network. So if a change is made but the history disagrees with the rest of the network. The transaction is invalid and won't be updated. You would need to own a high enough percetage fo the network to make those changes as well.
 
 ## Project Set Up
 
